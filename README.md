@@ -50,7 +50,7 @@ npm run preview
 
 ### Backend Integration
 
-The email form sends data to: `http://148.230.122.135:8000/customers/subscribe`
+The email form sends data to: `http://console.waveify.ai/customers/subscribe`
 
 **Request Payload:**
 ```json
@@ -62,7 +62,7 @@ The email form sends data to: `http://148.230.122.135:8000/customers/subscribe`
 
 To change the endpoint, edit `src/App.jsx` line 20:
 ```javascript
-const response = await fetch('http://148.230.122.135:8000/customers/subscribe', {
+const response = await fetch('http://console.waveify.ai/customers/subscribe', {
 ```
 
 ## 📁 Project Structure
