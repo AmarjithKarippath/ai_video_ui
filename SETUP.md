@@ -59,7 +59,7 @@ Your backend should be running at: `http://localhost:8000`
 
 Expected endpoint:
 ```
-POST http://localhost:8000/customers/subscribe
+POST http://148.230.122.135:8000/customers/subscribe
 Content-Type: application/json
 
 {

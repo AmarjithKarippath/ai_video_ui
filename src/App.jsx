@@ -19,7 +19,7 @@ export default function WaveifyLanding() {
 
     try {
       // Send name and email to local backend
-      const response = await fetch('http://localhost:8000/customers/subscribe', {
+      const response = await fetch('http://148.230.122.135:8000/customers/subscribe', {
         method: 'POST',
         headers: {
           'accept': 'application/json',
@@ -81,7 +81,7 @@ export default function WaveifyLanding() {
               </span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Powered by HeyGen's advanced AI. Just type your script and let Waveify.ai handle the rest. Get professional, vertical videos optimized for Instagram Reels and TikTok in minutes.
+              Powered by Waveify's advanced AI. Just type your script and let Waveify.ai handle the rest. Get professional, vertical videos optimized for Instagram Reels and TikTok in minutes.
             </p>
             <button
               onClick={() => setShowEmailModal(true)}
@@ -179,7 +179,7 @@ export default function WaveifyLanding() {
                 <span className="text-2xl font-bold">2</span>
               </div>
               <h3 className="text-xl font-bold mb-3">AI Does the Magic</h3>
-              <p className="text-gray-300">Our AI powered by HeyGen generates visuals, adds effects, and creates perfect pacing.</p>
+              <p className="text-gray-300">Our AI powered by Waveify generates visuals, adds effects, and creates perfect pacing.</p>
             </div>
 
             {/* Step 3 */}
@@ -227,7 +227,7 @@ export default function WaveifyLanding() {
               <div className="flex items-start gap-4">
                 <Sparkles className="w-8 h-8 text-purple-400 mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="text-2xl font-bold mb-2">HeyGen Powered</h3>
+                  <h3 className="text-2xl font-bold mb-2">Waveify AI Powered</h3>
                   <p className="text-gray-300">Advanced AI technology with realistic avatars, natural voices, and dynamic visuals.</p>
                 </div>
               </div>
