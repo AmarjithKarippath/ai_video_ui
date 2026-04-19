@@ -19,7 +19,7 @@ export default function WaveifyLanding() {
 
     try {
       // Send name and email to local backend
-      const response = await fetch('http://148.230.122.135:8000/customers/subscribe', {
+      const response = await fetch('https://148.230.122.135:8000/customers/subscribe', {
         method: 'POST',
         headers: {
           'accept': 'application/json',
